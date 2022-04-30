@@ -12,6 +12,10 @@ function navToggle() {
 
 btn.addEventListener('click', navToggle)
 
+document.addEventListener('scroll',e=>{
+  console.log('scroll')
+  nav.classList.add('hidden')
+})
 
 function onLoad(){
   // past game disable
